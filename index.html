@@ -1,12 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camping</title>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="./lib/fancybox/jquery.fancybox.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--------------------HEADER------------------->
+
+    <header class="header">
+      <div class="grid">
+        <div class="header__container">
+          <nav class="header__nav">
+            <div class="nav__brand">
+            <a href="">Camping</a>
+            </div>
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__item-link">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__item-link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__item-link">More Info</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__item-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!--------------------CAROUSEL------------------->
+
+    <section class="carousel">
+      <div class="grid">
+        <div class="carousel__container">
+          <div class="carousel__info">
+            <h1 class="carousel__info-sub-title">
+              Enjoy Your Holiday Trip 
+            </h1>
+            <h1 class="carousel__info-title">
+              Plan Your Holiday Trip Now Exceptional Adventure
+            </h1>
+            <p class="carousel__info-description">
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+              Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. 
+            </p>
+            <button class="mybtn mybtn--primary">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------EXPLORE------------------->
+
+    <section class="explore main-section">
+      <div class="grid">
+        <div class="section__container">
+          <div class="section__heading">
+            <h1 class="section__title">
+              Explore The World With Us. 
+            </h1>
+          </div>
+
+          <div class="explore__list explore__list--1">
+            <div class="explore__item">
+              <div class="explore__item-content">
+                <i class="explore__item-icon fas fa-bus-alt"></i>
+                <h1 class="explore__item-title">
+                  Sit Amet Mattis
+                </h1>
+                <p class="explore__item-description">
+                  Integer sit amet mattis quam, sit amet ultricies velit. 
+                  Praesent ullamcorper dui turpis.
+                </p>
+              </div>
+            </div>
+            <div class="explore__item">
+              <div class="explore__item-content">
+                <i class="explore__item-icon fas fa-car"></i>
+                <h1 class="explore__item-title">
+                  Ultricies Velit
+                </h1>
+                <p class="explore__item-description">
+                  Integer sit amet mattis quam, sit amet ultricies velit. 
+                  Praesent ullamcorper dui turpis.
+                </p>
+              </div>
+            </div>
+            <div class="explore__item">
+              <div class="explore__item-content">
+                <i class="explore__item-icon fas fa-rocket"></i>
+                <h1 class="explore__item-title">
+                  Amet Mattis Quam
+                </h1>
+                <p class="explore__item-description">
+                  Integer sit amet mattis quam, sit amet ultricies velit. 
+                  Praesent ullamcorper dui turpis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="explore__list explore__list--2">
+            <div class="explore__item">
+              <div class="explore__item-content">
+                <img src="./images/img1.jpg" alt="" class="explore__item-img">
+              </div>
+            </div>
+            <div class="explore__item explore__item-list">
+              <div class="explore__item-list">
+                <div class="explore__item-list-wrap">
+                  <div class="explore__item-list-content">
+                    <i class="explore__item-icon fas fa-plane"></i>
+                    <h1 class="explore__item-title">
+                      Amet Mattis Quam
+                    </h1>
+                    <p class="explore__item-description">
+                      Integer sit amet mattis quam, sit amet ultricies velit. 
+                      Praesent ullamcorper dui turpis.
+                    </p>
+                  </div>
+                </div>
+                <div class="explore__item-list-wrap">
+                  <div class="explore__item-list-content">
+                    <i class="explore__item-icon fas fa-space-shuttle"></i>
+                    <h1 class="explore__item-title">
+                      Amet Mattis Quam
+                    </h1>
+                    <p class="explore__item-description">
+                      Integer sit amet mattis quam, sit amet ultricies velit. 
+                      Praesent ullamcorper dui turpis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------STATS------------------->
+
+    <section class="stats">
+      <div class="grid">
+        <div class="section__container">
+          <div class="stats__list">
+            <div class="stats__item ">
+              <div class="stats__item-content">
+                <i class="stats__item-icon fas fa-briefcase"></i>
+                <p class="stats__item-number">
+                  12
+                </p>
+                <p class="stats__item-info">
+                  Years Of Experience
+                </p>
+              </div>
+            </div>
+            <div class="stats__item">
+              <div class="stats__item-content">
+                <i class="stats__item-icon fas fa-user"></i>
+                <p class="stats__item-number">
+                  120
+                </p>
+                <p class="stats__item-info">
+                  Our Agents
+                </p>
+              </div>
+            </div>
+            <div class="stats__item">
+              <div class="stats__item-content">
+                <i class="stats__item-icon fas fa-smile"></i>
+                <p class="stats__item-number">
+                  1280
+                </p>
+                <p class="stats__item-info">
+                  Happy Customers
+                </p>
+              </div>
+            </div>
+            <div class="stats__item">
+              <div class="stats__item-content">
+                <i class="stats__item-icon fas fa-users"></i>
+                <p class="stats__item-number">
+                  10200
+                </p>
+                <p class="stats__item-info">
+                  Clients
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------TOURS------------------->
+
+    <section class="tour">
+      <div class="grid">
+        <div class="section__container">
+          <div class="section__heading">
+            <h1 class="section__title">
+              Our Recent Tours
+            </h1>
+          </div>
+          <div class="tour__list">
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/1.jpg" data-fancybox>
+                  <img src="./images/1.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      Germany
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/2.jpg" data-fancybox>
+                  <img src="./images/2.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      France
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/3.jpg" data-fancybox>
+                  <img src="./images/3.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      Australia
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/4.jpg" data-fancybox>
+                  <img src="./images/4.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      France
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/5.jpg" data-fancybox>
+                  <img src="./images/5.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      Australia
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tour__item">
+              <div class="tour__item-content">
+                <a href="./images/6.jpg" data-fancybox>
+                  <img src="./images/6.jpg" alt="" class="tour__item-img"/>
+                </a>
+                <div class="tour__item-list">
+                  <div class="tour__item-info">
+                    <p class="tour__item-country">
+                      Germany
+                    </p>
+                    <p class="tour__item-location">
+                      <i class="fas fa-map-marker-alt"></i>
+                      Netherlands / Belgium 
+                    </p>
+                    <p class="tour__item-time">
+                      <span>
+                        <i class="far fa-clock"></i>
+                        3 days
+                      </span>
+                      <span>
+                        <i class="far fa-clock"></i>
+                        2 nights
+                      </span>
+                    </p>
+                  </div>
+                  <div class="tour__item-footer">
+                    <p class="tour__footer-user">
+                      <i class="fas fa-user"></i>
+                      Lorem Ipsum 
+                    </p>
+                    <p class="tour__footer-time">
+                      <i class="far fa-calendar-alt"></i>
+                      2 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fancybox -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./lib/fancybox/jquery.fancybox.min.js"></script>
+  </body>
 </html>
