@@ -21,12 +21,16 @@
       crossorigin="anonymous"
     />
 
+    <!-- flaticon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
     <!-- fancybox -->
     <link rel="stylesheet" href="./lib/fancybox/jquery.fancybox.min.css"/>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css"/>
   </head>
   <body>
     <!--------------------HEADER------------------->
@@ -45,13 +49,42 @@
               <li class="navbar__item">
                 <a href="#" class="navbar__item-link">About</a>
               </li>
-              <li class="navbar__item">
-                <a href="#" class="navbar__item-link">More Info</a>
+              <li class="navbar__item navbar__item--more-info">
+                <a href="#" class="navbar__item-link">
+                  More Info
+                  <i class="fi-rs-angle-down"></i>
+                </a>
+
+                <!-- subnav -->
+
+                <div class="nav__item-subnav">
+                  <ul class="nav__item-subnav-list">
+                    <li class="subnav__item">
+                      <a href="#" class="subnav__item-link">
+                        Features
+                      </a>
+                    </li>
+                    <li class="subnav__item">
+                      <a href="#" class="subnav__item-link">
+                        Gallery
+                      </a>
+                    </li>
+                    <li class="subnav__item">
+                      <a href="#" class="subnav__item-link">
+                       Services
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="navbar__item">
                 <a href="#" class="navbar__item-link">Contact</a>
               </li>
             </ul>
+
+          <button class="nav__toggle mybtn mybtn--nav-toggle">
+            <i class="fi-rr-align-justify"></i>
+          </button>
           </nav>
         </div>
       </div>
@@ -61,7 +94,7 @@
 
     <section class="carousel">
       <div class="grid">
-        <div class="carousel__container">
+        <div class="section__container">
           <div class="carousel__info">
             <h1 class="carousel__info-sub-title">
               Enjoy Your Holiday Trip 
@@ -466,6 +499,189 @@
         </div>
       </div>
     </section>
+
+    <!--------------------PLAN------------------->
+
+    <section class="plan">
+      <div class="grid">
+        <div class="section__container">
+          <div class="plan__list">
+            <div class="plan__item">
+              <div class="plan__item-content">
+                <h1 class="plan__item-title">
+                  Plan Your Holiday Trip Now Exceptional Adventure
+                </h1>
+                <p class="plan__item-description">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et 
+                  ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, 
+                  ut rhoncus turpis sodales quis.Integer sit amet mattis quam, 
+                  sit amet ultricies velit. Praesent ullamcorper dui turpis.
+                  <span>
+                    Integer sit amet mattis quam, sit amet ultricies velit. 
+                    Praesent ullamcorper dui turpis. 
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="plan__item">
+              <div class="plan__item-content">
+                <img src="./images/9.jpg" alt="" class="plan__item-img"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------FEEDBACK------------------->
+
+    <section class="feedback">
+      <div class="grid">
+        <div class="section__container">
+          <div class="section__heading">
+            <h1 class="section__title">
+              Our Clients Say
+            </h1>
+          </div>
+          <div class="feedback__detail">
+            <p class="feedback__user-comment">
+              <i class="fas fa-quote-left"></i>
+              Nam libero tempore, cum soluta nobis est eligendi 
+              optio cumque nihil impedit quo minus id quod possimus, 
+              omnis voluptas.Integer sit amet mattis quam, sit amet ultricies velit. 
+            </p>
+            <div class="feedback__user">
+              <img src="./images/te2.jpg" alt="" class="feedback__user-img"/>
+              <div class="feedback__user-info">
+                <p class="feedback__user-name">
+                  Soluta Nobis
+                </p>
+                <p class="feedback__user-job">
+                  Libero Tempore
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------FOOTER------------------->
+
+    <footer class="footer">
+      <div class="grid">
+        <div class="section__container">
+          <div class="footer__list">
+            <div class="footer__item">
+              <div class="footer__item-content">
+                <h1 class="footer__item-title">
+                  Address
+                </h1>
+                <p class="footer__item-description">
+                  Address : 1234 lock, Charlotte, North Carolina, United States
+                </p>
+                <p class="footer__item-description">
+                  <a href="tel:+840976283273">
+                    0976283273
+                  </a>
+                </p>
+                <p class="footer__item-description">
+                  <a href="mailto:viethai1309@gmail.com">
+                    Email : info@example.com
+                  </a>
+                </p>
+                <p class="footer__item-description">
+                  Fax : +12 534894364
+                </p>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__item-content">
+                <h1 class="footer__item-title">
+                  Quick Links
+                </h1>
+                <p class="footer__item-description">
+                 <a href="">
+                   Home
+                 </a>
+                </p>
+                <p class="footer__item-description">
+                  <a href="#">
+                    About
+                  </a>
+                </p>
+                <p class="footer__item-description">
+                  <a href="#">
+                    Services
+                  </a>
+                </p>
+                <p class="footer__item-description">
+                  <a href="#">
+                    Gallery
+                  </a>
+                </p>
+                <p class="footer__item-description">
+                  <a href="#">
+                    Contact
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__item-content">
+                <h1 class="footer__item-title">
+                  Newsletter
+                </h1>
+                <p class="footer__item-description">
+                  By subscribing to our mailing list you will always get latest news and updates from us.
+                </p>
+                <form action="" method="POST" class="footer__form">
+                  <input type="email" name="email" placeholder="Enter your email..." class="footer__form-input">
+                  <button class="mybtn mybtn--footer-form">
+                    <i class="far fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+
+    <!-------------------SIGN------------------->
+
+    <section class="sign">
+      <div class="grid">
+        <div class="section__container">
+          <div class="sign__content">
+            <div class="sign__info">
+              <p>
+                © 2018 Camping. All rights reserved | Design by
+                <span>
+                  NGUYEN VIET HAI
+                </span>
+              </p>
+            </div>
+            <div class="sign__social">
+              <a href="#" class="sign__social-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="sign__social-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="sign__social-link">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a href="#" class="sign__social-link">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- fancybox -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

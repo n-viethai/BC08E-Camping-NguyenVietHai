@@ -1,0 +1,155 @@
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+}
+
+/* mobile */
+
+@media screen and (max-width: 576px) {
+  /* -----------------------Header-------------------------- */
+  .nav__brand a {
+    font-size: 3rem;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  /* -----------------------Carousel-------------------------- */
+
+  .carousel {
+    height: 50rem;
+  }
+
+  .carousel__info {
+    width: 100%;
+  }
+
+  .carousel__info-sub-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .carousel__info-title {
+    font-size: 2.8rem;
+  }
+
+  .carousel__info-description {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .mybtn--primary {
+    padding: 1.2rem;
+  }
+
+  /* -----------------------Explore-------------------------- */
+
+  .explore__list {
+    flex-wrap: wrap;
+  }
+
+  .explore__list--1 .explore__item {
+    width: 100%;
+    padding: 1.6rem 0;
+  }
+
+  .explore__list--2 .explore__item {
+    width: 100%;
+    padding: 1.6rem 0;
+    text-align: center;
+  }
+
+  .explore__list--2 > .explore__item:first-child {
+    margin-left: 0;
+  }
+
+  /* -----------------------Stats-------------------------- */
+
+  .stats__list {
+    flex-wrap: wrap;
+  }
+
+  .stats__item {
+    width: 100%;
+    padding: 1.6rem 0;
+  }
+
+  /* -----------------------Tours-------------------------- */
+
+  .tour__item {
+    width: 100%;
+    padding: 1.6rem 0;
+  }
+
+  /* -----------------------Plan-------------------------- */
+  .plan__list {
+    flex-wrap: wrap;
+  }
+
+  .plan__item {
+    width: 100%;
+  }
+
+  .plan__item-content {
+    padding: 0;
+  }
+
+  .plan__item-img {
+    width: 100%;
+  }
+
+  /* -----------------------Feedback-------------------------- */
+
+  .feedback__detail {
+    width: 100%;
+  }
+
+  /* -----------------------Footer-------------------------- */
+
+  .footer__list {
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    width: 100%;
+    padding: 1.6rem 0;
+  }
+
+  .footer__item-title {
+  }
+
+  /* -----------------------Sign-------------------------- */
+
+  .sign__content {
+    flex-direction: column;
+  }
+
+  .sign__info p {
+    text-align: center;
+  }
+
+  .sign__info p span {
+    display: block;
+    margin-top: 0.4rem;
+  }
+
+  .sign__social {
+    margin-top: 2rem;
+  }
+
+  .sign__social-link {
+    font-size: 2rem;
+  }
+}
+
+/* 
+  576px
+  768px
+  992px
+  1200px
+  */
